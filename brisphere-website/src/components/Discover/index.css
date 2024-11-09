@@ -1,0 +1,123 @@
+.landing-container {
+    display: flex;
+    padding: 20px;
+    width: 90%;
+    margin-left: 40px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: rgb(200, 194, 194);
+    width: 50%;
+    height: 50vh;
+}
+
+.bg-image-container {
+    background-image: url('https://media.istockphoto.com/id/465250985/photo/alpine-mountain-landscape.jpg?s=612x612&w=0&k=20&c=Y6vQy7J2pNXTOo-_q-Dep_LtFkfYApmnv2tAEEwGwlQ=');
+    background-size: cover;
+    width: 50%;    
+}
+
+.details-heading {
+    font-size: 38px;
+    color: black;
+    font-weight: 400;
+}
+
+.details-description {
+    font-size: 18px;
+    color: rgb(28, 22, 22);
+    font-weight: 400;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.checkin-container {
+    background-color: #fff;
+    width: 55%;
+    height: 10vh;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -40px; */
+    margin-bottom: 40px;
+    margin-left: 18%;
+    gap: 50px;
+    padding: 30px;
+}
+
+.checkin {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.checkin-heading {
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-right: 1px solid #ccc; 
+    padding-right: 20px;
+}
+
+.checkout-heading {
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.rooms-count {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.rooms {
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+}
+
+.rooms-counter {
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+}
+
+.count-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+    gap: 10px;
+}
+
+.book-rooms-button {
+    background-color: rgb(5, 64, 75);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    width: 150px;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
